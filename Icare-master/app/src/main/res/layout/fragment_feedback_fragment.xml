@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    tools:context="org.icare.devcon.icare.Feedback_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/editTextMail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:autoLink="email"
+        android:gravity="top"
+        android:hint="Give your Feedback"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/sendMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextMail"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/primaryColor"
+        android:text="send"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
